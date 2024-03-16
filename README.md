@@ -40,11 +40,11 @@ The primary goal of this analysis is to detect and track vehicles in traffic sce
 
   ```bash
   python ultralytics_example.py \
-  --source_weights_path data/traffic_analysis.pt \
-  --source_video_path data/traffic_analysis.mov \
+  --source_weights_path data/_rvedio.pt \
+  --source_video_path data/rvideo3.mov \
   --confidence_threshold 0.3 \
   --iou_threshold 0.5 \
-  --target_video_path data/traffic_analysis_result.mov
+  --target_video_path data/rvideo7.mov
   ```
 
 
